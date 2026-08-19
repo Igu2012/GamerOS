@@ -21,7 +21,7 @@ Verify the SHA-256 checksum before writing the image to a USB drive.
 
 ### SHA-256
 
-See `GamerOS-0.1-amd64.iso.sha256` for the checksum of the release image.
+GitHub limits individual release assets to 2 GiB, so the ISO is provided as three numbered parts. Download all three `GamerOS-0.1-amd64.iso.part-*` files, verify them with `GamerOS-0.1-amd64.iso.parts.sha256`, and run `assemble-iso.sh` in the same directory. The resulting file must match the checksum in `GamerOS-0.1-amd64.iso.sha256`.
 
 ## Build source
 
