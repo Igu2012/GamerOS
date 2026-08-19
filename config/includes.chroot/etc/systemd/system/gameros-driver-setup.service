@@ -1,0 +1,13 @@
+[Unit]
+Description=GamerOS hardware driver setup
+After=network-online.target
+Wants=network-online.target
+ConditionPathExists=!/var/lib/gameros/driver-setup.done
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/gameros-driver-setup
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

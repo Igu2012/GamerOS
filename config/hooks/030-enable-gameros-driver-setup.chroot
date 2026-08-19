@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+
+chmod 0755 /usr/local/sbin/gameros-driver-setup
+systemctl enable gameros-driver-setup.service || true

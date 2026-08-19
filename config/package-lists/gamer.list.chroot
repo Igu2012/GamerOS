@@ -1,0 +1,129 @@
+# GamerOS 0.1 — base system and desktop
+!dpkg --add-architecture i386 >/dev/null 2>&1
+!apt-get update -qq >/dev/null 2>&1
+linux-generic-hwe-24.04
+syslinux-utils
+linux-headers-generic-hwe-24.04
+casper
+live-boot
+live-config
+initramfs-tools
+systemd-sysv
+sudo
+network-manager
+network-manager-openvpn
+network-manager-pptp
+bluez
+blueman
+fwupd
+amd64-microcode
+intel-microcode
+linux-firmware
+ubuntu-drivers-common
+
+# KDE Plasma and Wayland session
+kde-plasma-desktop
+plasma-workspace-wayland
+plasma-nm
+plasma-pa
+systemsettings
+kde-config-sddm
+sddm
+polkit-kde-agent-1
+xdg-desktop-portal
+xdg-desktop-portal-kde
+xwayland
+wayland-protocols
+breeze
+breeze-gtk-theme
+kio-extras
+dolphin
+konsole
+kate
+ark
+kde-spectacle
+partitionmanager
+plasma-discover
+
+# Installer and compatibility stack
+ubiquity
+ubiquity-frontend-kde
+xserver-xorg
+xserver-xorg-core
+xserver-xorg-video-amdgpu
+xserver-xorg-video-nouveau
+xserver-xorg-video-intel
+xserver-xorg-video-fbdev
+
+# Graphics, Vulkan and 32-bit gaming libraries
+mesa-vulkan-drivers
+mesa-vulkan-drivers:i386
+libgl1-mesa-dri
+libgl1-mesa-dri:i386
+libglx-mesa0
+libglx-mesa0:i386
+libegl1
+libegl1:i386
+libvulkan1
+libvulkan1:i386
+vulkan-tools
+ocl-icd-libopencl1
+ocl-icd-libopencl1:i386
+
+# Steam, Wine and game launchers
+steam-installer
+steam-devices
+lutris
+wine
+wine64
+wine32:i386
+winetricks
+protontricks
+cabextract
+p7zip-full
+unzip
+
+# Performance, monitoring and diagnostics
+gamemode
+mangohud
+goverlay
+mesa-utils
+pciutils
+usbutils
+inxi
+
+# Audio, capture and connectivity
+pipewire
+pipewire-audio
+pipewire-pulse
+wireplumber
+pavucontrol
+obs-studio
+
+# Utilities and fonts
+flatpak
+curl
+wget
+git
+htop
+neofetch
+fonts-liberation
+fonts-noto
+fonts-noto-cjk
+fonts-noto-color-emoji
+
+# Storage and recovery tools
+btrfs-progs
+ntfs-3g
+exfatprogs
+smartmontools
+parted
+gparted
+os-prober
+
+# Video and hardware acceleration
+ffmpeg
+libva2
+libva-drm2
+libva-x11-2
+vdpau-driver-all

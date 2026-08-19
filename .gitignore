@@ -1,0 +1,20 @@
+# Build output
+binary/
+chroot/
+cache/
+bootstrap/
+local/
+.tmp/
+*.log
+*.iso
+*.img
+*.hybrid.iso
+
+# Downloaded vendor packages
+downloads/*.deb
+downloads/SHA256SUMS
+config/packages.chroot/*.deb
+
+# Local live-build state
+.build/
+.buildlog*

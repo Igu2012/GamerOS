@@ -1,0 +1,12 @@
+#!/bin/sh
+set -eu
+
+vendor_dir=/opt/gameros/vendor
+
+if [ -d "$vendor_dir" ] && ls "$vendor_dir"/*.deb >/dev/null 2>&1; then
+    export DEBIAN_FRONTEND=noninteractive
+    dpkg --unpack "$vendor_dir"/*.deb || true
+    apt-get -f install -y
+    dpkg --configure -a
+    rm -rf "$vendor_dir"
+fi

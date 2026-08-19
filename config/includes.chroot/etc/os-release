@@ -1,0 +1,12 @@
+NAME="GamerOS"
+PRETTY_NAME="GamerOS 0.1"
+ID=gameros
+ID_LIKE="ubuntu debian"
+VERSION_ID="0.1"
+VERSION="0.1"
+VERSION_CODENAME=noble
+UBUNTU_CODENAME=noble
+HOME_URL="https://github.com/Igu2012/distro-gamer"
+DOCUMENTATION_URL="https://github.com/Igu2012/distro-gamer#readme"
+SUPPORT_URL="https://github.com/Igu2012/distro-gamer/issues"
+BUG_REPORT_URL="https://github.com/Igu2012/distro-gamer/issues"
