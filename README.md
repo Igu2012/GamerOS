@@ -47,9 +47,13 @@ No Linux distribution can guarantee support for every device. NVIDIA hardware, h
 
 ## Download
 
-The ISO is being moved from GitHub releases to the Internet Archive so that the project can provide a single public item with the complete image, checksums, and release notes. The download link will be added here after the first public upload is complete.
+The public release is hosted on the [Internet Archive](https://archive.org/details/gameros-0.1.0), which provides the complete image, checksum, README, and release notes in one item.
 
-The current build produces an approximately 4.6 GiB hybrid amd64 ISO. Always verify the SHA-256 checksum before writing the image to a USB drive.
+- **ISO image:** [GamerOS-0.1-amd64.iso](https://archive.org/download/gameros-0.1.0/GamerOS-0.1-amd64.iso)
+- **SHA-256 checksum:** [GamerOS-0.1-amd64.iso.sha256](https://archive.org/download/gameros-0.1.0/GamerOS-0.1-amd64.iso.sha256)
+- **Release notes:** [RELEASE_NOTES.md](https://archive.org/download/gameros-0.1.0/RELEASE_NOTES.md)
+
+The current release is an approximately 4.6 GiB hybrid amd64 ISO. Before writing it to a USB drive, verify that its SHA-256 digest matches the value published in the checksum file.
 
 ## Building the image
 
